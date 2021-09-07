@@ -11,9 +11,8 @@ class Main {
     Scanner string_find = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
 
     System.out.println("What is the input string? ");
-    String input_string = string_find.nextLine();  //Used to read in the name.
-    int b = string.length(input_string);
-    System.out.println(input_string +" has " + b + " characters in it.");  //Prints out statement and the input name.
+    String input_string = string_find.nextLine();  //Used to read in an input string.
+    System.out.println(input_string +" has " + input_string.length() + " characters in it.");  //Prints out the string and it's length.
     string_find.close();
   }
 }
