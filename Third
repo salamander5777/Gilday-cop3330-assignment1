@@ -1,0 +1,20 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 1 Solution
+ *  Copyright 2021 Michael Gilday
+ */
+
+import java.util.Scanner;
+
+//Exercise 3 - Printing Quotes. (Prompts for a quote and an author.)
+class Main {
+  public static void main(String[] args) {
+    Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
+
+    System.out.println("What is the quote? ");
+    String Quote = start_scan.nextLine();  //Used to read in the quote.
+    System.out.println("Who said it? ");
+    String Author = start_scan.nextLine(); //Used to read in 'who said the quote'.
+    System.out.println(Author +" says, " + "\"" + Quote + "\"");  //Prints put who said the quote along with the quote itself.
+    start_scan.close();
+  }
+}

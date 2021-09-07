@@ -8,11 +8,11 @@ import java.util.Scanner;
 //Exercise 2 - Counting the Number of Characters. (Prompts for an input string and displays output that shows the input string and the number of characters the string contains.)
 class Main {
   public static void main(String[] args) {
-    Scanner string_find = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
+    Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
 
     System.out.println("What is the input string? ");
-    String input_string = string_find.nextLine();  //Used to read in an input string.
+    String input_string = start_scan.nextLine();  //Used to read in an input string.
     System.out.println(input_string +" has " + input_string.length() + " characters in it.");  //Prints out the string and it's length.
-    string_find.close();
+    start_scan.close();
   }
 }

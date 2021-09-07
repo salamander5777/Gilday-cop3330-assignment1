@@ -8,11 +8,11 @@ import java.util.Scanner;
 //Exercise 1 - Saying Hello. (Prompts for your name and prints a greeting using your name.)
 class Main {
   public static void main(String[] args) {
-    Scanner name_find = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
+    Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
 
     System.out.println("What is your name? ");
-    String Name = name_find.nextLine();  //Used to read in the name.
+    String Name = start_scan.nextLine();  //Used to read in the name.
     System.out.println("Hello, " + Name +", nice to meet you!");  //Prints out statement and the input name.
-    name_find.close();
+    start_scan.close();
   }
 }
