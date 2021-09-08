@@ -1,0 +1,31 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 1 Solution
+ *  Copyright 2021 Michael Gilday
+ */
+
+import java.util.*;
+
+//Exercise 5 - Simple Math. (Program that prompts for two numbers. Print the sum, difference, product, and quotient of those numbers as shown in the example output.)
+class Main {
+  public static void main(String[] args) {
+    Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
+
+    System.out.println("What is the first number? ");
+    String Input1 = start_scan.next();  //Used to read in first string int.
+    System.out.println("What is the second number? ");
+    String Input2 = start_scan.next(); //Used read in the second string int.
+
+    //Below 2 lines used to convert input strings to mathable integers.
+    int n1 = Integer.parseInt(Input1);
+    int n2 = Integer.parseInt(Input2);
+
+    //Below is the block of code that does the math.
+    int a = (n1+n2);
+    int s = (n1-n2);
+    int m = (n1*n2);
+    int d = (n1/n2);
+
+    System.out.println(n1 + " + " + n2 + " = "  + a + "\n" + n1 + " - " + n2 + " = "  + s + "\n" + n1 + " * " + n2 + " = "  + m + "\n" + n1 + " / " + n2 + " = "  + d);  //Prints out the sum, different, product and quotient of the input numbers.
+    start_scan.close();
+  }
+}
