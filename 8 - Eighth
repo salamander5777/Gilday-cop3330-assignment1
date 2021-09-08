@@ -17,7 +17,7 @@ class Main {
     System.out.println("How many slices per pizza? ");
     String i_slice_a = start_scan.nextLine(); //Reads in the amount of slices per pizza.
 
-    //Below is the block of code that turns strings to ints and does the math.
+    //Below is the block of code that turns strings into ints and does the math.
     int pe = Integer.parseInt(i_people);
     int pi = Integer.parseInt(i_pizza_a);
     int sl = Integer.parseInt(i_slice_a);

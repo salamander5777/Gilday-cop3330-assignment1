@@ -15,7 +15,7 @@ class Main {
     System.out.println("What is the width of the room in feet? ");
     String width = start_scan.nextLine();  //Reads room width in feet.
 
-    //Below is the block of code that turns strings to ints and does the math.
+    //Below is the block of code that turns strings into ints and does the math.
     int l = Integer.parseInt(length);
     int w = Integer.parseInt(width);
     int f2 = (l*w);
