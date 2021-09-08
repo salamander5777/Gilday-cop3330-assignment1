@@ -18,7 +18,7 @@ class Main {
 
     int A = Integer.parseInt(age_input);
     int R = Integer.parseInt(retire_input);
-    int Y = Year.now().getValue();
+    int Y = Year.now().getValue(); //Gets current year.
 
     System.out.println("You have " + (R-A) + " years left until you can retire.\nIt's " + Y + ", so you can retire in " + (R-A+Y) + ".");  //Prints put who said the quote along with the quote itself.
     start_scan.close();
