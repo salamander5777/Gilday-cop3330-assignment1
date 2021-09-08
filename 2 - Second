@@ -3,7 +3,7 @@
  *  Copyright 2021 Michael Gilday
  */
 
-import java.util.Scanner;
+import java.util.*;
 
 //Exercise 2 - Counting the Number of Characters. (Prompts for an input string and displays output that shows the input string and the number of characters the string contains.)
 class Main {

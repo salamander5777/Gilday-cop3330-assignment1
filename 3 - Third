@@ -3,7 +3,7 @@
  *  Copyright 2021 Michael Gilday
  */
 
-import java.util.Scanner;
+import java.util.*;
 
 //Exercise 3 - Printing Quotes. (Prompts for a quote and an author.)
 class Main {
