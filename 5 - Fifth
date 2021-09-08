@@ -11,9 +11,9 @@ class Main {
     Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
 
     System.out.println("What is the first number? ");
-    String Input1 = start_scan.next();  //Used to read in first string int.
+    String Input1 = start_scan.next();  //Reads in first string int.
     System.out.println("What is the second number? ");
-    String Input2 = start_scan.next(); //Used read in the second string int.
+    String Input2 = start_scan.next(); //Reads in the second string int.
 
     //Below 2 lines used to convert input strings to mathable integers.
     int n1 = Integer.parseInt(Input1);
