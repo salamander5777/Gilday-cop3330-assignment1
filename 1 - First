@@ -5,14 +5,15 @@
 
 import java.util.*;
 
-//Exercise 1 - Saying Hello. (Prompts for your name and prints a greeting using your name.)
+//Exercise 1 - Saying Hello. (Prompts for a name and then prints a greeting using input name.)
 class Main {
   public static void main(String[] args) {
     Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
 
     System.out.println("What is your name? ");
     String Name = start_scan.next();  //Reads in the name.
-    System.out.println("Hello, " + Name +", nice to meet you!");  //Prints out statement and the input name.
+    
+    System.out.println("Hello, " + Name +", nice to meet you!");  //Prints out statement using the input name.
     start_scan.close();
   }
 }

@@ -5,7 +5,7 @@
 
 import java.util.*;
 
-//Exercise 8 - Pizza Party. (Program that evenly divides pizzas. Prompt for the number of people, the number of pizzas, and the number of slices per pizza. Ensure that the number of pieces comes out even. Display the number of pieces of pizza each person should get. Any leftovers are shown)
+//Exercise 8 - Pizza Party. (Program that evenly divides pizzas. Prompt for the number of people, the number of pizzas, and the number of slices per pizza. Then displays the number of pieces of pizza each person should get and the amount of leftovers.)
 class Main {
   public static void main(String[] args) {
     Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
@@ -25,7 +25,7 @@ class Main {
     int sl_p_pe = (sl_a/pe);
     int lf = (sl-sl_p_pe);
 
-    System.out.println(pe + " people with " + pi + " pizzas (" + sl_a + " slices)\nEach person gets " + sl_p_pe + " pieces of pizza.\nThere are " + lf + " leftover pieces.");  //Prints put who said the quote along with the quote itself.
+    System.out.println(pe + " people with " + pi + " pizzas (" + sl_a + " slices)\nEach person gets " + sl_p_pe + " pieces of pizza.\nThere are " + lf + " leftover pieces.");  //Prints out the # of people, pizzas, amount of slices, how many each person gets, and the amount of leftovers.
     start_scan.close();
   }
 }

@@ -12,6 +12,7 @@ class Main {
 
     System.out.println("What is the input string? ");
     String input_string = start_scan.nextLine();  //Reads in an input string.
+    
     System.out.println(input_string +" has " + input_string.length() + " characters in it.");  //Prints out the string and it's length.
     start_scan.close();
   }

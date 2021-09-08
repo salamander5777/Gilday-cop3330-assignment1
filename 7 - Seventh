@@ -5,7 +5,7 @@
 
 import java.util.*;
 
-//Exercise 7 - Area of a Rectangular Room. (Program that calculates the area of a room. Prompts the user for the length and width of the room in feet. Then display the area in both square feet and square meters.)
+//Exercise 7 - Area of a Rectangular Room. (Program that calculates the area of a room. Prompts the user for the length and width of the room in feet. Then displays the area in both square feet and square meters.)
 class Main {
   public static void main(String[] args) {
     Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.

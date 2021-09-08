@@ -18,6 +18,7 @@ class Main {
     String Adjective = start_scan.next(); //Reads in an adjective.
     System.out.println("Enter an adverb: ");
     String Adverb = start_scan.next(); //Reads in an adverb.
+    
     System.out.println("Do you " + Verb + " your " + Adjective + " " + Noun + " " + Adverb + "? That's Hilarious!");  //Prints out a statement using the provided noun, verb, adjective and adverb.
     start_scan.close();
   }
