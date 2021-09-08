@@ -23,7 +23,7 @@ class Main {
     System.out.println("Enter the quantity of item 3: ");
     String input_i3q = start_scan.nextLine();  //Reads in the quantity of item 3.
 
-    //Below is the block of code that turns strings into double/ints and does the math.
+    //Below is the block of code that turns strings into doubles and does the math.
     double i1 = Double.parseDouble(input_i1);
     double i1q = Integer.parseInt(input_i1q);
     double i2 = Double.parseDouble(input_i2);
@@ -37,7 +37,7 @@ class Main {
     double tax = Math.ceil(((st/100.00)*5.5)*100.00)/100.00; //Calculates tax amount.
     double to = (st+tax); //Total.
     
-    System.out.println("Subtotal: $" + st + "\nTax: $" + tax +"\nTotal: $" + to);  //
+    System.out.println("Subtotal: $" + st + "\nTax: $" + tax +"\nTotal: $" + to);  //Prints out the Subtotal, Tax value, and Total.
     start_scan.close();
   }
 }
