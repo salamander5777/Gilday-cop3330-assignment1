@@ -13,7 +13,7 @@ class Main {
     System.out.print("What is your name? ");
     String Name = start_scan.next();  //Reads in the name.
     
-    System.out.print("Hello, " + Name +", nice to meet you!");  //Prints out statement using the input name.
+    System.out.print("Hello, " + Name + ", nice to meet you!");  //Prints out statement using the input name.
     start_scan.close();
   }
 }
