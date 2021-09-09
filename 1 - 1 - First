@@ -10,10 +10,10 @@ class Main {
   public static void main(String[] args) {
     Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
 
-    System.out.println("What is your name? ");
+    System.out.print("What is your name? ");
     String Name = start_scan.next();  //Reads in the name.
     
-    System.out.println("Hello, " + Name +", nice to meet you!");  //Prints out statement using the input name.
+    System.out.print("Hello, " + Name +", nice to meet you!");  //Prints out statement using the input name.
     start_scan.close();
   }
 }

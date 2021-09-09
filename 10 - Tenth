@@ -10,17 +10,17 @@ class Main {
   public static void main(String[] args) {
     Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
 
-    System.out.println("Enter the price of item 1: ");
+    System.out.print("Enter the price of item 1: ");
     String input_i1 = start_scan.nextLine();  //Reads in the first item.
-    System.out.println("Enter the quantity of item 1: ");
+    System.out.print("Enter the quantity of item 1: ");
     String input_i1q = start_scan.nextLine();  //Reads in the quantity of item 1.
-    System.out.println("Enter the price of item 2: ");
+    System.out.print("Enter the price of item 2: ");
     String input_i2 = start_scan.nextLine();  //Reads in the second item.
-    System.out.println("Enter the quantity of item 2: ");
+    System.out.print("Enter the quantity of item 2: ");
     String input_i2q = start_scan.nextLine();  //Reads in the quantity of item 2.
-    System.out.println("Enter the price of item 3: ");
+    System.out.print("Enter the price of item 3: ");
     String input_i3 = start_scan.nextLine();  //Reads in the third item.
-    System.out.println("Enter the quantity of item 3: ");
+    System.out.print("Enter the quantity of item 3: ");
     String input_i3q = start_scan.nextLine();  //Reads in the quantity of item 3.
 
     //Below is the block of code that turns strings into doubles and does the math.
@@ -37,7 +37,7 @@ class Main {
     double tax = Math.ceil(((st/100.00)*5.5)*100.00)/100.00; //Calculates tax amount.
     double to = (st+tax); //Total.
     
-    System.out.println("Subtotal: $" + st + "\nTax: $" + tax +"\nTotal: $" + to);  //Prints out the Subtotal, Tax value, and Total.
+    System.out.print("Subtotal: $" + st + "\nTax: $" + tax +"\nTotal: $" + to);  //Prints out the Subtotal, Tax value, and Total.
     start_scan.close();
   }
 }

@@ -10,9 +10,9 @@ class Main {
   public static void main(String[] args) {
     Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
 
-    System.out.println("What is the length of the room in feet? ");
+    System.out.print("What is the length of the room in feet? ");
     String length = start_scan.nextLine();  //Reads room length in feet.
-    System.out.println("What is the width of the room in feet? ");
+    System.out.print("What is the width of the room in feet? ");
     String width = start_scan.nextLine();  //Reads room width in feet.
 
     //Below is the block of code that turns strings into ints and does the math.
@@ -22,7 +22,7 @@ class Main {
     int a = (l*w);
     int g = (int) Math.ceil(a/conv); //Function used to round up potential decimal value of Area/Gallons.
     
-    System.out.println("You will need to purchase " + g + " gallons of paint to cover " + a +" square feet.");  //Prints out the # of gallons required for the input area.
+    System.out.print("You will need to purchase " + g + " gallons of paint to cover " + a +" square feet.");  //Prints out the # of gallons required for the input area.
     start_scan.close();
   }
 }

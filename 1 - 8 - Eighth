@@ -10,11 +10,11 @@ class Main {
   public static void main(String[] args) {
     Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
 
-    System.out.println("How many people? ");
+    System.out.print("How many people? ");
     String i_people = start_scan.nextLine();  //Reads in the amount of party people.
-    System.out.println("How many pizzas do you have? ");
+    System.out.print("How many pizzas do you have? ");
     String i_pizza_a = start_scan.nextLine(); //Reads in the amount of pizzas.
-    System.out.println("How many slices per pizza? ");
+    System.out.print("How many slices per pizza? ");
     String i_slice_a = start_scan.nextLine(); //Reads in the amount of slices per pizza.
 
     //Below is the block of code that turns strings into ints and does the math.
@@ -25,7 +25,7 @@ class Main {
     int sl_p_pe = (sl_a/pe);
     int lf = (sl-sl_p_pe);
 
-    System.out.println(pe + " people with " + pi + " pizzas (" + sl_a + " slices)\nEach person gets " + sl_p_pe + " pieces of pizza.\nThere are " + lf + " leftover pieces.");  //Prints out the # of people, pizzas, amount of slices, how many each person gets, and the amount of leftovers.
+    System.out.print(pe + " people with " + pi + " pizzas (" + sl_a + " slices)\nEach person gets " + sl_p_pe + " pieces of pizza.\nThere are " + lf + " leftover pieces.");  //Prints out the # of people, pizzas, amount of slices, how many each person gets, and the amount of leftovers.
     start_scan.close();
   }
 }

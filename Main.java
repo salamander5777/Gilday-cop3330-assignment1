@@ -10,11 +10,11 @@ class Main {
   public static void main(String[] args) {
     Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
 
-    System.out.println("Enter the principal: ");
+    System.out.print("Enter the principal: ");
     String input_p = start_scan.next();  //Reads in the principle amount.
-    System.out.println("Enter the rate of interest: ");
+    System.out.print("Enter the rate of interest: ");
     String input_roi = start_scan.next(); //Reads in the rate of interest.
-    System.out.println("Enter the number of years: ");
+    System.out.print("Enter the number of years: ");
     String input_noy = start_scan.next(); //Reads in the numer of years that the principle amount accrues.
 
     //Below is the block of code used to convert input strings into doubles and does the math.
@@ -24,7 +24,7 @@ class Main {
     double y = Double.parseDouble(input_noy);
     double a = Math.round(p*(1.00+(rt*y))*100.00)/100.00; // Accrued amount = Principle * (1 + rate*years)
 
-    System.out.println("After " + y + " years at " + r + "%, the investment will be worth $" + a + ".");  //Prints out the amount of years, rate of interest, and the accrued amount.
+    System.out.print("After " + y + " years at " + r + "%, the investment will be worth $" + a + ".");  //Prints out the amount of years, rate of interest, and the accrued amount.
     start_scan.close();
   }
 }
