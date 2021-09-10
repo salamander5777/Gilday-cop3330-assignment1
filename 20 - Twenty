@@ -27,8 +27,7 @@ class Main {
         tax = (.055*O);
         to = Math.round((tax+O)*100.00)/100.00;
       }
-      else if(input_c.equals("Dunn"))
-      {
+      else if(input_c.equals("Dunn")){
         tax = (.054*O);
         to = Math.round((tax+O)*100.00)/100.00;
       }

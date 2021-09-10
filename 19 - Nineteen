@@ -15,7 +15,7 @@ class Main {
     do{
       System.out.print("What is your height in inches? ");
       input_H = start_scan.next();  //Reads in height.
-      if (!input_H.matches("[0.0-9.0]+")) {
+      if (!input_H.matches("[0.0-9.0]+")){
         System.out.println("Error: Input a valid positive number.\n");
         x = 2;
       }
@@ -27,7 +27,7 @@ class Main {
     do{
       System.out.print("What is your weight in pounds? ");
       input_W = start_scan.next();  //Reads in pounds.
-      if (!input_W.matches("[0.0-9.0]+")) {
+      if (!input_W.matches("[0.0-9.0]+")){
         System.out.println("Error: Input a valid positive number.\n");
         x = 2;
       }
