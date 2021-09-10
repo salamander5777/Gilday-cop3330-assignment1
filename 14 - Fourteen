@@ -16,7 +16,7 @@ class Main {
     String input_s = start_scan.next(); //Reads in the order state.
 
     double o = Double.parseDouble(input_o);//Converts input string into double.
-    double to = o;
+    double to = o; //New variable carrying order amount data.
     double tax = (o*.055);
     if(input_s.equals("WI")){ //If statement will add tax to total if input was 'WI'.
       to = (tax+o);
