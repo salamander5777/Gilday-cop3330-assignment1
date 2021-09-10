@@ -19,7 +19,7 @@ class Main {
     double to = o; //New variable carrying order amount data.
     double tax = (o*.055);
     if(input_s.equals("WI")){ //If statement will add tax to total if input was 'WI'.
-      to = (tax+o);
+      to = Math.round((tax+o)*100.00)/100.00;
     }
 
     System.out.print((input_s.equals("WI")) ? "The subtotal is $" + o + ".\nThe tax is $" + tax + ".\nThe total is $" + to + "." : "The total is $" + to + ".");  //Will print out Subtotal & Taxes along with total if state is "WI"; Will only print total w/out tax if state is not "WI".
