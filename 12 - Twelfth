@@ -22,7 +22,7 @@ class Main {
     double r = Double.parseDouble(input_roi);
     double rt = Double.parseDouble(input_roi)/100.00;
     double y = Double.parseDouble(input_noy);
-    double a = Math.round(p*(1.00+(rt*y))*100.00)/100.00; //Accrued amount = Principle * (1 + rate*years).
+    double a = Math.round(p*(1.00+(rt*y))*100.00)/100.00; //Accrued amount = Principle*(1+rate*years).
 
     System.out.print("After " + y + " years at " + r + "%, the investment will be worth $" + a + ".");  //Prints out the amount of years, rate of interest, and the accrued amount.
     start_scan.close();
