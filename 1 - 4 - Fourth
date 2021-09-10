@@ -8,10 +8,10 @@ import java.util.*;
 //Exercise 4 - Mad Lib. (Mad-lib program that prompts for a noun, a verb, an adverb, and an adjective and injects those into a story that you create.)
 class Main {
   public static void main(String[] args) {
-    Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
+    Scanner start_scan = new Scanner(System.in); //Creation of a scanner object to allow for user input.
 
     System.out.print("Enter a noun: ");
-    String Noun = start_scan.next();  //Reads in a noun.
+    String Noun = start_scan.next(); //Reads in a noun.
     System.out.print("Enter a verb: ");
     String Verb = start_scan.next(); //Reads in a verb.
     System.out.print("Enter an adjective: ");

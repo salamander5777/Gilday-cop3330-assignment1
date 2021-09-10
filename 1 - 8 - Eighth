@@ -8,10 +8,10 @@ import java.util.*;
 //Exercise 8 - Pizza Party. (Program that evenly divides pizzas. Prompt for the number of people, the number of pizzas, and the number of slices per pizza. Then displays the number of pieces of pizza each person should get and the amount of leftovers.)
 class Main {
   public static void main(String[] args) {
-    Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
+    Scanner start_scan = new Scanner(System.in); //Creation of a scanner object to allow for user input.
 
     System.out.print("How many people? ");
-    String i_people = start_scan.nextLine();  //Reads in the amount of party people.
+    String i_people = start_scan.nextLine(); //Reads in the amount of party people.
     System.out.print("How many pizzas do you have? ");
     String i_pizza_a = start_scan.nextLine(); //Reads in the amount of pizzas.
     System.out.print("How many slices per pizza? ");

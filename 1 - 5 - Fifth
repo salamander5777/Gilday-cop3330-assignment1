@@ -8,10 +8,10 @@ import java.util.*;
 //Exercise 5 - Simple Math. (Program that prompts for two numbers. Then prints the sum, difference, product, and quotient of those numbers.)
 class Main {
   public static void main(String[] args) {
-    Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
+    Scanner start_scan = new Scanner(System.in); //Creation of a scanner object to allow for user input.
 
     System.out.print("What is the first number? ");
-    String Input1 = start_scan.next();  //Reads in first string number.
+    String Input1 = start_scan.next(); //Reads in first string number.
     System.out.print("What is the second number? ");
     String Input2 = start_scan.next(); //Reads in the second string number.
 

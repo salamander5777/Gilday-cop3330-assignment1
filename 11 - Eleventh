@@ -8,10 +8,10 @@ import java.util.*;
 //Exercise 11 - Currency Conversion. (Program that converts euros to U.S. dollars. Prompts for the amount of money in euros you have, and prompts for the current exchange rate of the euro. Then prints out the new amount in U.S. dollars.)
 class Main {
   public static void main(String[] args) {
-    Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
+    Scanner start_scan = new Scanner(System.in); //Creation of a scanner object to allow for user input.
 
     System.out.print("How many euros are you exchanging? ");
-    String input_e = start_scan.next();  //Reads in the amount of euros.
+    String input_e = start_scan.next(); //Reads in the amount of euros.
     System.out.print("What is the exchange rate? ");
     String input_r = start_scan.next(); //Reads in the expected exchange rate.
 

@@ -8,10 +8,10 @@ import java.util.*;
 //Exercise 13 - Determining Compound Interest. (Program that computes the value of an investment compounded over time. Then asks for starting amount, the number of years to invest, the interest rate, and the number of periods per year to compound.)
 class Main {
   public static void main(String[] args) {
-    Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
+    Scanner start_scan = new Scanner(System.in); //Creation of a scanner object to allow for user input.
 
     System.out.print("What is the principal amount: ");
-    String input_p = start_scan.next();  //Reads in the principle amount.
+    String input_p = start_scan.next(); //Reads in the principle amount.
     System.out.print("What is the rate of interest: ");
     String input_roi = start_scan.next(); //Reads in the rate of interest.
     System.out.print("What is the number of years: ");

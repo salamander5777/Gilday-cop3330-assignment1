@@ -8,10 +8,10 @@ import java.util.*;
 //Exercise 20 - Multistate Sales Tax Calculator. (Program that prompts for the order amount and the state. If the state is “WI,” then the order must be charged 5% tax, with an extra .5% for Eau Claire county residents and .4% for Dunn county residents. Then displays the state, county, tax, and total for Wisconsin/Illinois residents, or it will display just the state, county, and total for non-residents.)
 class Main {
   public static void main(String[] args) {
-    Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
+    Scanner start_scan = new Scanner(System.in); //Creation of a scanner object to allow for user input.
 
     System.out.print("What is the order amount? ");
-    String input_O = start_scan.next();  //Reads in the order amount.
+    String input_O = start_scan.next(); //Reads in the order amount.
     System.out.print("What state do you live in? ");
     String input_st = start_scan.next(); //Reads in the order state.
     System.out.print("What county do you live in? ");

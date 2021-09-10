@@ -8,10 +8,10 @@ import java.util.*;
 //Exercise 14 - Tax Calculator. (Program that prompts for the order amount and the state. If the state is “WI,” then the order must be charged 5.5% tax. Then displays the subtotal, tax, and total for Wisconsin residents but display just the total for non-residents.)
 class Main {
   public static void main(String[] args) {
-    Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
+    Scanner start_scan = new Scanner(System.in); //Creation of a scanner object to allow for user input.
 
     System.out.print("What is the order amount? ");
-    String input_o = start_scan.next();  //Reads in the order amount.
+    String input_o = start_scan.next(); //Reads in the order amount.
     System.out.print("What is the state? ");
     String input_s = start_scan.next(); //Reads in the order state.
 

@@ -8,13 +8,13 @@ import java.util.*;
 //Exercise 19 - BMI Calculator. (Program that calculates the body mass index (BMI) for a person using the person’s height in inches and weight in pounds, which is prompted by the program.)
 class Main {
   public static void main(String[] args) {
-    Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
+    Scanner start_scan = new Scanner(System.in); //Creation of a scanner object to allow for user input.
     int x = 1; //Used as an exit for do-whiles.
     String input_H, input_W;
 
     do{
       System.out.print("What is your height in inches? ");
-      input_H = start_scan.next();  //Reads in height.
+      input_H = start_scan.next(); //Reads in height.
       if (!input_H.matches("[0.0-9.0]+")){
         System.out.println("Error: Input a valid positive number.\n");
         x = 2;
@@ -26,7 +26,7 @@ class Main {
 
     do{
       System.out.print("What is your weight in pounds? ");
-      input_W = start_scan.next();  //Reads in pounds.
+      input_W = start_scan.next(); //Reads in pounds.
       if (!input_W.matches("[0.0-9.0]+")){
         System.out.println("Error: Input a valid positive number.\n");
         x = 2;

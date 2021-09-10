@@ -9,10 +9,10 @@ import java.time.*;
 //Exercise 6 - Retirement Calculator. (Program that determines how many years you have left until retirement and the year you can retire. Prompts for your current age and the age you want to retire. Then displays)
 class Main {
   public static void main(String[] args) {
-    Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
+    Scanner start_scan = new Scanner(System.in); //Creation of a scanner object to allow for user input.
 
     System.out.print("What is your current age? ");
-    String age_input = start_scan.nextLine();  //Reads in age.
+    String age_input = start_scan.nextLine(); //Reads in age.
     System.out.print("At what age would you like to retire? ");
     String retire_input = start_scan.nextLine(); //Reads in desired age of retirement.
 

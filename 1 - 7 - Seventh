@@ -8,12 +8,12 @@ import java.util.*;
 //Exercise 7 - Area of a Rectangular Room. (Program that calculates the area of a room. Prompts the user for the length and width of the room in feet. Then displays the area in both square feet and square meters.)
 class Main {
   public static void main(String[] args) {
-    Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
+    Scanner start_scan = new Scanner(System.in); //Creation of a scanner object to allow for user input.
 
     System.out.print("What is the length of the room in feet? ");
     String length = start_scan.nextLine();  //Reads room length in feet.
     System.out.print("What is the width of the room in feet? ");
-    String width = start_scan.nextLine();  //Reads room width in feet.
+    String width = start_scan.nextLine(); //Reads room width in feet.
 
     //Below is the block of code that turns strings into ints and does the math.
     int l = Integer.parseInt(length);

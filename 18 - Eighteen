@@ -8,10 +8,10 @@ import java.util.*;
 //Exercise 18 - Temperature Converter. (Program that converts temperatures from Fahrenheit to Celsius or from Celsius to Fahrenheit. Prompts for the starting temperature. Then prompts for what type of conversion you want.)
 class Main {
   public static void main(String[] args) {
-    Scanner start_scan = new Scanner(System.in);  //Creation of a scanner object to allow for user input.
+    Scanner start_scan = new Scanner(System.in); //Creation of a scanner object to allow for user input.
 
     System.out.print("Input C to convert from Fahrenheit to Celsius.\nInput F to convert from Celsius to Fahrenheit.\nYour choice: ");
-    String input_foc = start_scan.next();  //Reads in 'C' or 'F'.
+    String input_foc = start_scan.next(); //Reads in 'C' or 'F'.
     double input_temp = 0.00;
     double temp = 0.00;
     
